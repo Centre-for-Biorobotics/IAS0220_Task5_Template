@@ -12,7 +12,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='True')
 
     package_name = 'machine_vision_part2'
-    world_file_name = 'mvt.world'
+    world_file_name = 'mvt_light.world'
 
     world = os.path.join(get_package_share_directory(
         package_name), 'worlds', world_file_name)
